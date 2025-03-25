@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49.90278, y: -35.085308}
-  m_SizeDelta: {x: 333.9468, y: 3.6139}
+  m_AnchoredPosition: {x: -2, y: -35.085308}
+  m_SizeDelta: {x: 500, y: 3.6139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &22926450
 MonoBehaviour:
@@ -235,8 +235,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -572, y: 263}
-  m_SizeDelta: {x: 234.1407, y: 62.9014}
+  m_AnchoredPosition: {x: -482, y: 263}
+  m_SizeDelta: {x: 500, y: 62.9014}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &120832540
 CanvasRenderer:
@@ -913,7 +913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 31.786316, y: -14.358887}
+  m_AnchoredPosition: {x: 31.786377, y: -14.358887}
   m_SizeDelta: {x: 152.3333, y: 123.4021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218209840
@@ -1177,9 +1177,13 @@ MonoBehaviour:
       kebenaran dan kesuciannya.
     image: {fileID: 0}
   - sortOrder: 1
-    header: null
+    header: 
     body: Tamat
-    image: {fileID: 21300154, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
+    image: {fileID: 0}
+  - sortOrder: 1
+    header: 
+    body: Terimakasih
+    image: {fileID: 0}
   nextSceneId: 0
 --- !u!4 &1404709322
 Transform:
